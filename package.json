@@ -1,0 +1,24 @@
+{
+  "name": "@publish-cms/type",
+  "version": "1.0.0",
+  "description": "Publish CMS Core Type",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/publish-cms/type.git"
+  },
+  "keywords": [
+    "Publish",
+    "CMS",
+    "Type"
+  ],
+  "author": "PublishCMS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/publish-cms/type/issues"
+  },
+  "homepage": "https://github.com/publish-cms/type#readme"
+}
