@@ -1,6 +1,7 @@
-import { ILink } from "link";
-import { IMedia } from "media";
-import { IUser } from "user";
+import { ILink } from 'link';
+import { IMedia } from 'media';
+import { IPost } from 'post';
+import { IUser } from 'user';
 
 export class IFollowAlong {
   id: string;
@@ -18,6 +19,7 @@ export class IFollowAlong {
   mediaImage?: IMedia;
   link?: ILink;
   followAlongMeta?: IFollowAlongMeta[];
+  posts?: IPost[];
 }
 
 export class IFollowAlongMeta {

@@ -1,4 +1,4 @@
-import { IMedia } from "media";
+import { IMedia } from 'media';
 
 export class IHashtag {
   id: string;

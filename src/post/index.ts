@@ -1,7 +1,7 @@
-import { ICategory } from "category";
-import { ILink } from "link";
-import { IMedia } from "media";
-import { IUser } from "user";
+import { ICategory } from 'category';
+import { ILink } from 'link';
+import { IMedia } from 'media';
+import { IUser } from 'user';
 
 export class IPost {
   id: string;

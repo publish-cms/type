@@ -1,6 +1,6 @@
-import { ILink } from "link";
-import { IMedia } from "media";
-import { IPost } from "post";
+import { ILink } from 'link';
+import { IMedia } from 'media';
+import { IPost } from 'post';
 
 export class ICategory {
   id: string;
