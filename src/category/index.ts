@@ -15,9 +15,9 @@ export class ICategory {
   seoKeyword?: string;
   createdAt?: string;
   updatedAt?: string;
+  link?: ILink;
   mediaIcon?: IMedia;
   mediaSeoImage?: IMedia;
   mediaImage?: IMedia;
-  link?: ILink;
-  post?: IPost[];
+  posts?: IPost[];
 }

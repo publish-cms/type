@@ -10,11 +10,9 @@ export class IPost {
   content?: string;
   views?: number;
   mediaImage?: IMedia;
-  image?: IMedia;
   seoTitle?: string;
   seoDescription?: string;
   seoKeyword?: string;
-  seoImage?: IMedia;
   sort?: number;
   type?: number;
   status?: number;
@@ -26,14 +24,12 @@ export class IPost {
   publishDate?: string | Date;
   authorId?: string;
   author: IUser;
-  postMeta?: IPostMeta[];
-  category: ICategory;
-  link?: ILink;
-  related?: IPost[];
-  canComment?: boolean;
-  slug?: string;
-  postRelated?: IPost[];
   mediaSeoImage?: IMedia;
+  postMeta?: IPostMeta[];
+  category?: ICategory[];
+  link?: ILink;
+  canComment?: boolean;
+  postRelated?: IPost[];
 }
 
 export class IPostMeta {
