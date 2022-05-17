@@ -64,86 +64,70 @@
 ## App
 
   <ul>
-    <li>
-      <a href="/src/app/index.ts#L3">IApp</a>
-      <a href="/src/app/index.ts#L20">IAppMeta</a>
-      <a href="/src/app/index.ts#L28">IAppRole</a>
-      <a href="/src/app/index.ts#L42">IAppRoleUser</a>
-      <a href="/src/app/index.ts#L50">IAppPermission</a>
-      <a href="/src/app/index.ts#L59">EAppStatus</a>
-      <a href="/src/app/index.ts#L64">EAppPermissionKey</a>
-    </li>
+    <li><a href="/src/app/index.ts#L3">IApp</a></li>
+    <li><a href="/src/app/index.ts#L20">IAppMeta</a></li>
+    <li><a href="/src/app/index.ts#L28">IAppRole</a></li>
+    <li><a href="/src/app/index.ts#L42">IAppRoleUser</a></li>
+    <li><a href="/src/app/index.ts#L50">IAppPermission</a></li>
+    <li><a href="/src/app/index.ts#L59">EAppStatus</a></li>
+    <li><a href="/src/app/index.ts#L64">EAppPermissionKey</a></li>
   </ul>
 
 ## Auth
 
   <ul>
-    <li>
-      <a href="/src/auth/index.ts#L1">EAppPatternName</a>
-      <a href="/src/auth/index.ts#L12">EAuthPatternName</a>
-      <a href="/src/auth/index.ts#L27">EnumEmailPatternName</a>
-      <a href="/src/auth/index.ts#L36">ERolePatternName</a>
-      <a href="/src/auth/index.ts#L46">EUserPatternName</a>
-    </li>
+    <li><a href="/src/auth/index.ts#L1">EAppPatternName</a></li>
+    <li><a href="/src/auth/index.ts#L12">EAuthPatternName</a></li>
+    <li><a href="/src/auth/index.ts#L27">EnumEmailPatternName</a></li>
+    <li><a href="/src/auth/index.ts#L36">ERolePatternName</a></li>
+    <li><a href="/src/auth/index.ts#L46">EUserPatternName</a></li>
   </ul>
 
 ## Banner
 
   <ul>
-    <li>
-      <a href="/src/banner/index.ts#L3">IBanner</a>
-      <a href="/src/banner/index.ts#L15">IBannerMeta</a>
-      <a href="/src/banner/index.ts#L24">IBannerNative</a>
-      <a href="/src/banner/index.ts#L31">IBannerContent</a>
-      <a href="/src/banner/index.ts#L37">EBannerKey</a>
-      <a href="/src/banner/index.ts#L43">EBannerPosition</a>
-      <a href="/src/banner/index.ts#L49">EBannerType</a>
-    </li>
+    <li><a href="/src/banner/index.ts#L3">IBanner</a></li>
+    <li><a href="/src/banner/index.ts#L15">IBannerMeta</a></li>
+    <li><a href="/src/banner/index.ts#L24">IBannerNative</a></li>
+    <li><a href="/src/banner/index.ts#L31">IBannerContent</a></li>
+    <li><a href="/src/banner/index.ts#L37">EBannerKey</a></li>
+    <li><a href="/src/banner/index.ts#L43">EBannerPosition</a></li>
+    <li><a href="/src/banner/index.ts#L49">EBannerType</a></li>
   </ul>
 
 ## Category
 
   <ul>
-    <li>
-      <a href="/src/category/index.ts#L5">ICategory</a>
-    </li>
+    <li><a href="/src/category/index.ts#L5">ICategory</a></li>
   </ul>
 
 ## Followalong
 
   <ul>
-    <li>
-      <a href="/src/followalong/index.ts#L6">IFollowAlong</a>
-      <a href="/src/followalong/index.ts#L25">IFollowAlongMeta</a>
-    </li>
+    <li><a href="/src/followalong/index.ts#L6">IFollowAlong</a></li>
+    <li><a href="/src/followalong/index.ts#L25">IFollowAlongMeta</a></li>
   </ul>
 
 ## Global
 
   <ul>
-    <li>
-      <a href="/src/global/index.ts">ISiteInfo</a>
-      <a href="/src/global/index.ts">IHeadContent</a>
-      <a href="/src/global/index.ts">ITopSearch</a>
-    </li>
+    <li><a href="/src/global/index.ts">ISiteInfo</a></li>
+    <li><a href="/src/global/index.ts">IHeadContent</a></li>
+    <li><a href="/src/global/index.ts">ITopSearch</a></li>
   </ul>
 
 ## Hashtag
 
   <ul>
-    <li>
-      <a href="/src/hashtag/index.ts">IHashtag</a>
-    </li>
+    <li><a href="/src/hashtag/index.ts">IHashtag</a></li>
   </ul>
 
 ## Link
 
   <ul>
-    <li>
-      <a href="/src/link/index.ts">ILink</a>
-      <a href="/src/link/index.ts">ILinkMeta</a>
-      <a href="/src/link/index.ts">ELinkType</a>
-    </li>
+    <li><a href="/src/link/index.ts">ILink</a></li>
+    <li><a href="/src/link/index.ts">ILinkMeta</a></li>
+    <li><a href="/src/link/index.ts">ELinkType</a></li>
   </ul>
 
 ## Media
@@ -157,53 +141,43 @@
 ## Option
 
   <ul>
-    <li>
-      <a href="/src/option/index.ts">IOption</a>
-      <a href="/src/option/index.ts">ICallToAction</a>
-      <a href="/src/option/index.ts">EOptionKey</a>
-      <a href="/src/option/index.ts">ICustomGrid</a>
-      <a href="/src/option/index.ts">ECustomGridType</a>
-    </li>
+    <li><a href="/src/option/index.ts">IOption</a></li>
+    <li><a href="/src/option/index.ts">ICallToAction</a></li>
+    <li><a href="/src/option/index.ts">EOptionKey</a></li>
+    <li><a href="/src/option/index.ts">ICustomGrid</a></li>
+    <li><a href="/src/option/index.ts">ECustomGridType</a></li>
   </ul>
 
 ## Party
 
   <ul>
-    <li>
-      <a href="/src/party/index.ts">IParty</a>
-      <a href="/src/party/index.ts">EPartyType</a>
-      <a href="/src/party/index.ts">EPartyStatus</a>
-    </li>
+    <li><a href="/src/party/index.ts">IParty</a></li>
+    <li><a href="/src/party/index.ts">EPartyType</a></li>
+    <li><a href="/src/party/index.ts">EPartyStatus</a></li>
   </ul>
 
 ## Post
 
   <ul>
-    <li>
-      <a href="/src/post/index.ts">IPost</a>
-      <a href="/src/post/index.ts">IPostMeta</a>
-      <a href="/src/post/index.ts">IPostRelated</a>
-      <a href="/src/post/index.ts">IPostRelationCategory</a>
-    </li>
+    <li><a href="/src/post/index.ts">IPost</a></li>
+    <li><a href="/src/post/index.ts">IPostMeta</a></li>
+    <li><a href="/src/post/index.ts">IPostRelated</a></li>
+    <li><a href="/src/post/index.ts">IPostRelationCategory</a></li>
   </ul>
 
 ## Subscriber
 
   <ul>
-    <li>
-      <a href="/src/subscriber/index.ts">ISubscriber</a>
-    </li>
+    <li><a href="/src/subscriber/index.ts">ISubscriber</a></li>
   </ul>
 
 ## User
 
   <ul>
-    <li>
-      <a href="/src/user/index.ts">IUser</a>
-      <a href="/src/user/index.ts">IUserMeta</a>
-      <a href="/src/user/index.ts">IUserRole</a>
-      <a href="/src/user/index.ts">EUserStatus</a>
-    </li>
+    <li><a href="/src/user/index.ts">IUser</a></li>
+    <li><a href="/src/user/index.ts">IUserMeta</a></li>
+    <li><a href="/src/user/index.ts">IUserRole</a></li>
+    <li><a href="/src/user/index.ts">EUserStatus</a></li>
   </ul>
 
 [contributors-shield]: https://img.shields.io/github/contributors/publish-cms/type.svg?style=for-the-badge
