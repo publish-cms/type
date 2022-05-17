@@ -1,6 +1,6 @@
 {
   "name": "@publish-cms/type",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Publish CMS Core Type",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

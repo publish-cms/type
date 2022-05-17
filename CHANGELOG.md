@@ -1,12 +1,12 @@
 # Changelog
 
-## v1.0.3
+## v1.0.4
 
 ### Added or Changed
 
+- add `childrens` in `IMenu`
+- added `ITopSearch` in global
 - added Auth Service Pattern Name
 - changed the positon type `IBanner`: `number` -> `string`
-- added `ITopSearch` in global
-- add `childrens` in `IMenu`
 
 ### Removed
