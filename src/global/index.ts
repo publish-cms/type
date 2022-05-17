@@ -19,10 +19,15 @@ export class ISiteInfo {
   customPhrase: any;
 }
 
-export interface IHeadContent {
+export class IHeadContent {
   title?: string;
   desc?: string;
   keyword?: string;
   slug?: string;
   image?: string;
+}
+
+export class ITopSearch {
+  count: number;
+  value: string;
 }

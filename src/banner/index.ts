@@ -6,7 +6,7 @@ export class IBanner {
   title?: string;
   type?: number;
   status?: number;
-  position?: number;
+  position?: string;
   content?: string;
   createdAt?: Date | string;
   bannerMeta?: IBannerMeta;
