@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.7
+
+### Added or Changed
+
+- add enum Auth Service
+
+### Removed
+
 ## v1.0.6
 
 ### Added or Changed

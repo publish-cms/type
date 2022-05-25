@@ -1,4 +1,5 @@
 export * from './app';
+export * from './auth';
 export * from './banner';
 export * from './category';
 export * from './followalong';
