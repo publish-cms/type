@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.8
+
+### Added or Changed
+
+- fix enum text
+
+### Removed
+
 ## v1.0.7
 
 ### Added or Changed

@@ -6,7 +6,7 @@ export class IApp {
   name?: string;
   prefix?: string;
   secret?: string;
-  status?: EAppStatus;
+  status?: EAppStatus | string;
   deleted?: boolean;
   createdAt?: string | Date;
   updatedAt?: string | Date;
@@ -49,7 +49,7 @@ export class IAppRoleUser {
 
 export class IAppPermission {
   id: string;
-  key?: EAppPermissionKey;
+  key?: EAppPermissionKey | string;
   appId?: string;
   app?: IApp;
   userId?: string;
@@ -57,12 +57,12 @@ export class IAppPermission {
 }
 
 export enum EAppStatus {
-  ACTIVE,
-  INACTIVE,
+  ACTIVE = 'ACTIVE',
+  INACTIVE = 'INACTIVE',
 }
 
 export enum EAppPermissionKey {
-  ADMIN,
-  MANAGE,
-  READ,
+  ADMIN = 'ADMIN',
+  MANAGE = 'MANAGE',
+  READ = 'READ',
 }

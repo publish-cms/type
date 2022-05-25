@@ -13,12 +13,12 @@ export class IUser {
   fullname?: string;
   phone?: string;
   address?: string;
-  birthday?: string;
+  birthday?: string | Date;
   gender?: number;
   social?: string;
   avatar?: IMedia;
   role?: IUserRole;
-  status?: EUserStatus;
+  status?: EUserStatus | string;
   deleted?: boolean;
   createdAt?: string | Date;
   updatedAt?: string | Date;
@@ -46,9 +46,9 @@ export class IUserRole {
 }
 
 export enum EUserStatus {
-  PENDING,
-  ACTIVE,
-  HOLD,
-  BAN,
-  DELETE,
+  PENDING = 'PENDING',
+  ACTIVE = 'ACTIVE',
+  HOLD = 'HOLD',
+  BAN = 'BAN',
+  DELETE = 'DELETE',
 }
