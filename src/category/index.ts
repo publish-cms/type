@@ -13,8 +13,8 @@ export class ICategory {
   seoTitle?: string;
   seoDescription?: string;
   seoKeyword?: string;
-  createdAt?: string;
-  updatedAt?: string;
+  createdAt?: string | Date;
+  updatedAt?: string | Date;
   link?: ILink;
   mediaIcon?: IMedia;
   mediaSeoImage?: IMedia;

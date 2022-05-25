@@ -15,7 +15,7 @@ export class IMedia {
   urlRaw?: string;
   urlSmall?: string;
   createdBy?: IUser;
-  createdAt?: Date;
-  updatedAt?: Date;
+  createdAt?: Date | string;
+  updatedAt?: Date | string;
   type?: number;
 }

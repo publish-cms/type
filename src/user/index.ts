@@ -1,6 +1,6 @@
 import { IApp, IAppPermission, IAppRole } from 'app';
 import { IMedia } from 'media';
-import { IParty } from 'party';
+import { IUserParty } from 'party';
 import { ISubscriber } from 'subscriber';
 
 export class IUser {
@@ -8,6 +8,7 @@ export class IUser {
   uniqueId?: string;
   email?: string;
   username?: string;
+  password?: string;
   description?: string;
   content?: string;
   fullname?: string;
@@ -17,32 +18,28 @@ export class IUser {
   gender?: number;
   social?: string;
   avatar?: IMedia;
-  role?: IUserRole;
+  role?: IAppRole;
   status?: EUserStatus | string;
   deleted?: boolean;
   createdAt?: string | Date;
   updatedAt?: string | Date;
+  refId?: string;
   ref?: IUser;
   metas?: IUserMeta[];
   apps?: IApp;
-  appRoles?: IAppRole[];
+  roles?: IAppRole[];
   subscriber?: ISubscriber;
-  appPermissions?: IAppPermission[];
-  parties?: IParty[];
+  permissions?: IAppPermission[];
+  parties?: IUserParty[];
 }
 
 export class IUserMeta {
   id: string;
   key?: string;
   value?: string;
-  createdAt?: string;
-  updatedAt?: string;
+  createdAt?: string | Date;
+  updatedAt?: string | Date;
   user?: IUser;
-}
-export class IUserRole {
-  id?: string;
-  name?: string;
-  permissions?: string[];
 }
 
 export enum EUserStatus {

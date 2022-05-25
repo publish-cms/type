@@ -12,9 +12,9 @@ export class IApp {
   updatedAt?: string | Date;
   ownerId?: string;
   user?: IUser;
-  appMeta?: IAppMeta[];
-  appRole?: IAppRole;
-  appPermission?: IAppPermission;
+  metas?: IAppMeta[];
+  roles?: IAppRole;
+  permissions?: IAppPermission;
 }
 
 export class IAppMeta {
@@ -28,15 +28,16 @@ export class IAppMeta {
 export class IAppRole {
   id: string;
   name?: string;
-  permissions?: string[];
+  permission?: string[];
   appId?: string;
   createdAt?: string | Date;
   updatedAt?: string | Date;
   app?: IApp;
-  roleUsers?: IAppRoleUser[];
+  users?: IAppRoleUser[];
   parentId?: string;
   type?: number; // 1. Allow Inherit // 2. Deny Inherit
   parent?: IAppRole;
+  child?: IAppRole[];
 }
 
 export class IAppRoleUser {

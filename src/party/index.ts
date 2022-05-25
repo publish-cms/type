@@ -1,6 +1,6 @@
 import { IUser } from 'user';
 
-export class IParty {
+export class IUserParty {
   id: string;
   partyId?: string;
   type?: EPartyType | string;

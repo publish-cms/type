@@ -36,8 +36,8 @@ export class IPostMeta {
   id: string;
   key?: string;
   value?: string;
-  createdAt?: string;
-  updatedAt?: string;
+  createdAt?: string | Date;
+  updatedAt?: string | Date;
   post?: IPost;
 }
 
