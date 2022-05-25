@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.6
+
+### Added or Changed
+
+- changed the `IUserRole` id, name not required
+
+### Removed
+
 ## v1.0.4
 
 ### Added or Changed

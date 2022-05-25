@@ -40,8 +40,8 @@ export class IUserMeta {
   user?: IUser;
 }
 export class IUserRole {
-  id: string;
-  name: string;
+  id?: string;
+  name?: string;
   permissions?: string[];
 }
 
