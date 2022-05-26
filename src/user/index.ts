@@ -1,4 +1,4 @@
-import { IApp, IAppPermission, IAppRole } from 'app';
+import { IApp, IAppPermission, IAppRole, IAppRoleUser } from 'app';
 import { IMedia } from 'media';
 import { IUserParty } from 'party';
 import { ISubscriber } from 'subscriber';
@@ -8,7 +8,6 @@ export class IUser {
   uniqueId?: string;
   email?: string;
   username?: string;
-  password?: string;
   description?: string;
   content?: string;
   fullname?: string;
@@ -27,14 +26,14 @@ export class IUser {
   ref?: IUser;
   metas?: IUserMeta[];
   apps?: IApp;
-  roles?: IAppRole[];
+  roles?: IAppRoleUser[];
   subscriber?: ISubscriber;
   permissions?: IAppPermission[];
   parties?: IUserParty[];
 }
 
 export class IUserMeta {
-  id: string;
+  id?: string;
   key?: string;
   value?: string;
   createdAt?: string | Date;

@@ -11,10 +11,10 @@ export class IApp {
   createdAt?: string | Date;
   updatedAt?: string | Date;
   ownerId?: string;
-  user?: IUser;
+  owner?: IUser;
   metas?: IAppMeta[];
-  roles?: IAppRole;
-  permissions?: IAppPermission;
+  roles?: IAppRole[];
+  permissions?: IAppPermission[];
 }
 
 export class IAppMeta {
@@ -26,9 +26,9 @@ export class IAppMeta {
   app?: IApp;
 }
 export class IAppRole {
-  id: string;
+  id?: string;
   name?: string;
-  permission?: string[];
+  permissions?: string[];
   appId?: string;
   createdAt?: string | Date;
   updatedAt?: string | Date;
@@ -41,7 +41,7 @@ export class IAppRole {
 }
 
 export class IAppRoleUser {
-  id: string;
+  id?: string;
   appRoleId?: string;
   userId?: string;
   appRole?: IAppRole;
@@ -50,7 +50,7 @@ export class IAppRoleUser {
 
 export class IAppPermission {
   id: string;
-  key?: EAppPermissionKey | string;
+  key?: EAppPermissionKey;
   appId?: string;
   app?: IApp;
   userId?: string;
