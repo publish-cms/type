@@ -1,13 +1,13 @@
-import { ILink } from 'link';
-import { IMedia } from 'media';
-import { IPost } from 'post';
+import { ILink } from '../link';
+import { IMedia } from '../media';
+import { IPost } from '../post';
 
 export class ICategory {
   id: string;
   title?: string;
   description?: string;
-  status?: number;
-  type?: number;
+  status?: ECategoryStatus;
+  type?: ECategoryType;
   sort?: number;
   deleted?: boolean;
   seoTitle?: string;
@@ -20,4 +20,13 @@ export class ICategory {
   mediaSeoImage?: IMedia;
   mediaImage?: IMedia;
   posts?: IPost[];
+}
+
+export enum ECategoryStatus {
+  ACTIVE = 1,
+  INACTIVE = 2,
+}
+
+export enum ECategoryType {
+  CATEGORY = 1,
 }

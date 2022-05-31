@@ -1,7 +1,7 @@
-import { ICategory } from 'category';
-import { IFollowAlong } from 'followalong';
-import { IPost } from 'post';
-import { IUser } from 'user';
+import { ICategory } from '../category';
+import { IFollowAlong } from '../followalong';
+import { IPost } from '../post';
+import { IUser } from '../user';
 
 export class ILink {
   id: string;
@@ -32,9 +32,10 @@ export class ILinkMeta {
 }
 
 export enum ELinkType {
+  NULL = 0,
   POST = 1,
   CATEGORY = 2,
   AUTHOR = 3,
-  SHORT_LINK = 4,
+  SHORTLINK = 4,
   FOLLOWALONG = 5,
 }

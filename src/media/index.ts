@@ -1,4 +1,4 @@
-import { IUser } from 'user';
+import { IUser } from '../user';
 
 export class IMedia {
   id: string;
@@ -17,5 +17,11 @@ export class IMedia {
   createdBy?: IUser;
   createdAt?: Date | string;
   updatedAt?: Date | string;
-  type?: number;
+  type?: EMediaType;
+}
+
+export enum EMediaType {
+  POST = 1,
+  COMMENT = 2,
+  AVATAR = 3,
 }

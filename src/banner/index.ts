@@ -1,4 +1,4 @@
-import { IMedia } from 'media';
+import { IMedia } from '../media';
 
 export class IBanner {
   id?: string;
@@ -47,6 +47,11 @@ export enum EBannerPosition {
 }
 
 export enum EBannerType {
-  NATIVE = 2,
   IMAGE = 1,
+  NATIVE = 2,
+}
+
+export enum EBannerStatus {
+  ACTIVE = 1,
+  DEACTIVE = 2,
 }

@@ -1,7 +1,7 @@
-import { ILink } from 'link';
-import { IMedia } from 'media';
-import { IPost } from 'post';
-import { IUser } from 'user';
+import { ILink } from '../link';
+import { IMedia } from '../media';
+import { IPost } from '../post';
+import { IUser } from '../user';
 
 export class IFollowAlong {
   id: string;
@@ -10,7 +10,7 @@ export class IFollowAlong {
   seoTitle?: string;
   seoDescription?: string;
   seoKeyword?: string;
-  status?: number;
+  status?: EFollowAlongStatus;
   views?: number;
   authorId?: string;
   author?: IUser;
@@ -29,4 +29,11 @@ export class IFollowAlongMeta {
   createdAt?: Date | string;
   updatedAt?: Date | string;
   followAlong?: IFollowAlong;
+}
+
+export enum EFollowAlongStatus {
+  DRAF = 1,
+  PENDING = 2,
+  PUBLISH = 3,
+  CANCEL = 4,
 }

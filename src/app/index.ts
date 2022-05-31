@@ -1,4 +1,4 @@
-import { IUser } from 'user';
+import { IUser } from '../user';
 
 export class IApp {
   id: string;

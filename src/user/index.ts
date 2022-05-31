@@ -1,7 +1,7 @@
-import { IApp, IAppPermission, IAppRole, IAppRoleUser } from 'app';
-import { IMedia } from 'media';
-import { IUserParty } from 'party';
-import { ISubscriber } from 'subscriber';
+import { IApp, IAppPermission, IAppRole, IAppRoleUser } from '../app';
+import { IMedia } from '../media';
+import { IUserParty } from '../party';
+import { ISubscriber } from '../subscriber';
 
 export class IUser {
   id: string;

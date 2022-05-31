@@ -1,11 +1,11 @@
-import { IMedia } from 'media';
+import { IMedia } from '../media';
 
 export class IHashtag {
   id: string;
   slug?: string;
   title?: string;
   description?: string;
-  status?: number;
+  status?: EHashtagStatus;
   imageId?: string;
   iconId?: string;
   sort?: number;
@@ -19,4 +19,9 @@ export class IHashtag {
   mediaIcon?: IMedia;
   mediaImage?: IMedia;
   mediaSeoImage?: IMedia;
+}
+
+export enum EHashtagStatus {
+  ACTIVE = 1,
+  INACTIVE = 2,
 }

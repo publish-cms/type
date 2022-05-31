@@ -1,5 +1,5 @@
-import { IMedia } from 'media';
-import { IPost } from 'post';
+import { IMedia } from '../media';
+import { IPost } from '../post';
 
 export class IOption {
   id: string;

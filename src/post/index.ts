@@ -1,7 +1,7 @@
-import { ICategory } from 'category';
-import { ILink } from 'link';
-import { IMedia } from 'media';
-import { IUser } from 'user';
+import { ICategory } from '../category';
+import { ILink } from '../link';
+import { IMedia } from '../media';
+import { IUser } from '../user';
 
 export class IPost {
   id: string;
@@ -52,4 +52,11 @@ export class IPostRelationCategory {
   sort?: number;
   category: ICategory;
   post: IPost;
+}
+
+export enum EPostStatus {
+  PUBLIC = 1,
+  REVIEW = 2,
+  TRASH = 3,
+  DRAFT = 4,
 }

@@ -1,4 +1,4 @@
-import { IUser } from 'user';
+import { IUser } from '../user';
 
 export class ISubscriber {
   id: string;
