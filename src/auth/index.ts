@@ -42,6 +42,7 @@ export enum ERolePatternName {
   ROLE_REMOVE_USER = 'role_remove_user',
   ROLE_GET_INHERIT = 'role_get_inherit',
   ROLE_FIND_MANY_USER = 'role_find_many_user',
+  ROLE_FIND_ONE = 'role_find_one',
 }
 
 export enum EUserPatternName {

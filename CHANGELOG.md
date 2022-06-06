@@ -4,6 +4,14 @@
 
 ### Added or Changed
 
+- add role_find_one from Auth Role Partent
+
+### Removed
+
+## v1.0.8
+
+### Added or Changed
+
 - fix enum text
 
 ### Removed
