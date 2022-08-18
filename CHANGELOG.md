@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.13
+
+### Added or Changed
+
+- Add type string createBy - IMedia
+
 ## v1.0.8
 
 ### Added or Changed

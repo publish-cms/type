@@ -23,7 +23,7 @@ export class IPost {
   updatedAt?: string | Date;
   publishDate?: string | Date;
   authorId?: string;
-  author: IUser;
+  author?: IUser;
   mediaSeoImage?: IMedia;
   postMeta?: IPostMeta[];
   category?: ICategory[];

@@ -6,6 +6,6 @@ export class ISubscriber {
   meta?: string;
   createdAt?: Date | string;
   updatedAt?: Date | string;
-  userId;
+  userId?: string;
   user?: IUser;
 }
