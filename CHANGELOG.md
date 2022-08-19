@@ -4,6 +4,16 @@
 
 ### Added or Changed
 
+- Add enum pattern auth AUTH_WALLET_CONNECT
+
+### Removed
+
+- Remove enum pattern auth AUTH_WALLET_CONNECT
+
+## v1.0.14
+
+### Added or Changed
+
 - Add enum party type TWITTER
 
 ## v1.0.13
