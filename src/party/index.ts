@@ -19,6 +19,7 @@ export enum EUserPartyType {
   WALLET = 'WALLET',
   FACEBOOK = 'FACEBOOK',
   GOOGLE = 'GOOGLE',
+  TWITTER = 'TWITTER',
 }
 
 export enum EUserPartyStatus {

@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.14
+
+### Added or Changed
+
+- Add enum party type TWITTER
+
 ## v1.0.13
 
 ### Added or Changed
