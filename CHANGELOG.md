@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.16
+
+### Added or Changed
+
+- Add enum pattern auth AUTH_TWITTER_REQUEST_TOKEN
+
+### Removed
+
 ## v1.0.14
 
 ### Added or Changed

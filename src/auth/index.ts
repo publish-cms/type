@@ -22,6 +22,7 @@ export enum EAuthPatternName {
   AUTH_PARTY_VERIFY = 'auth_party_verify',
   AUTH_PARTY_DISCONNECT = 'auth_party_disconnect',
   AUTH_GET_USER_PARTY = 'auth_get_user_party',
+  AUTH_TWITTER_REQUEST_TOKEN = 'auth_twitter_request_token',
 }
 
 export enum EnumEmailPatternName {
