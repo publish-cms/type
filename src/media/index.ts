@@ -1,13 +1,13 @@
 import { IUser } from '../user';
 
 export class IMedia {
-  id: string;
+  id?: string;
   title?: string;
   alt?: string;
   ext?: string;
   hash?: string;
-  width: number | string;
-  height: number | string;
+  width?: number | string;
+  height?: number | string;
   size?: number;
   url?: string;
   urlLarge?: string;

@@ -4,7 +4,7 @@ import { IPost } from '../post';
 import { IUser } from '../user';
 
 export class ILink {
-  id: string;
+  id?: string;
   slug?: string;
   title?: string;
   detail?: string;
@@ -23,7 +23,7 @@ export class ILink {
 }
 
 export class ILinkMeta {
-  id: string;
+  id?: string;
   key?: string;
   value?: string;
   createdAt?: Date | string;

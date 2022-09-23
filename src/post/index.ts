@@ -4,7 +4,7 @@ import { IMedia } from '../media';
 import { IUser } from '../user';
 
 export class IPost {
-  id: string;
+  id?: string;
   title?: string;
   description?: string;
   content?: string;
@@ -18,7 +18,7 @@ export class IPost {
   status?: number;
   hot?: boolean;
   deleted?: boolean;
-  categories: ICategory[];
+  categories?: ICategory[];
   createdAt?: string | Date;
   updatedAt?: string | Date;
   publishDate?: string | Date;

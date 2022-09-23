@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.17
+
+### Added or Changed
+
+- Change require type
+
+### Removed
+
 ## v1.0.16
 
 ### Added or Changed

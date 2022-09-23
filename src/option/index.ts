@@ -2,7 +2,7 @@ import { IMedia } from '../media';
 import { IPost } from '../post';
 
 export class IOption {
-  id: string;
+  id?: string;
   key?: string;
   value?: string;
 }
@@ -23,7 +23,7 @@ export class ICustomGrid {
   enable?: boolean;
   title?: string;
   link?: string;
-  typeShow: ECustomGridType.DEFAULT;
+  typeShow?: ECustomGridType.DEFAULT;
   mediaIcon?: IMedia;
 }
 

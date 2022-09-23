@@ -3,7 +3,7 @@ import { IMedia } from '../media';
 import { IPost } from '../post';
 
 export class ICategory {
-  id: string;
+  id?: string;
   title?: string;
   description?: string;
   status?: ECategoryStatus;

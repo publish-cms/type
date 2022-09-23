@@ -4,7 +4,7 @@ import { IUserParty } from '../party';
 import { ISubscriber } from '../subscriber';
 
 export class IUser {
-  id: string;
+  id?: string;
   uniqueId?: string;
   email?: string;
   username?: string;

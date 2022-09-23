@@ -4,7 +4,7 @@ import { IPost } from '../post';
 import { IUser } from '../user';
 
 export class IFollowAlong {
-  id: string;
+  id?: string;
   title?: string;
   description?: string;
   seoTitle?: string;

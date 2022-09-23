@@ -1,7 +1,7 @@
 import { IMedia } from '../media';
 
 export class IHashtag {
-  id: string;
+  id?: string;
   slug?: string;
   title?: string;
   description?: string;

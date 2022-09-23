@@ -1,7 +1,7 @@
 import { IUser } from '../user';
 
 export class ISubscriber {
-  id: string;
+  id?: string;
   domainId?: string;
   meta?: string;
   createdAt?: Date | string;

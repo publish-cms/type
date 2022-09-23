@@ -1,7 +1,7 @@
 import { IUser } from '../user';
 
 export class IUserParty {
-  id: string;
+  id?: string;
   partyId?: string;
   type?: EUserPartyType | string;
   userId?: string;

@@ -1,7 +1,7 @@
 import { IUser } from '../user';
 
 export class IApp {
-  id: string;
+  id?: string;
   uniqueId?: string;
   name?: string;
   prefix?: string;
@@ -18,7 +18,7 @@ export class IApp {
 }
 
 export class IAppMeta {
-  id: string;
+  id?: string;
   key?: string;
   value?: string;
   createdAt?: string | Date;
@@ -49,7 +49,7 @@ export class IAppRoleUser {
 }
 
 export class IAppPermission {
-  id: string;
+  id?: string;
   key?: EAppPermissionKey;
   appId?: string;
   app?: IApp;

@@ -16,7 +16,7 @@ export class ISiteInfo {
   baseURL?: string;
   apiURL?: string;
   manageURL?: string;
-  customPhrase: any;
+  customPhrase?: any;
 }
 
 export class IHeadContent {

@@ -1,5 +1,5 @@
 export class IMenu {
-  id: string;
+  id?: string;
   type?: number;
   title?: string;
   url?: string;
