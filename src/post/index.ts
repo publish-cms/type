@@ -29,7 +29,7 @@ export class IPost {
   category?: ICategory[];
   link?: ILink;
   canComment?: boolean;
-  postRelated?: IPost[];
+  related?: IPost[];
 }
 
 export class IPostMeta {

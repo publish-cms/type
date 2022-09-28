@@ -30,6 +30,7 @@ export class IUser {
   subscriber?: ISubscriber;
   permissions?: IAppPermission[];
   parties?: IUserParty[];
+  countPost?: number;
 }
 
 export class IUserMeta {

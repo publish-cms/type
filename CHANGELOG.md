@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.0.18
+
+### Added or Changed
+
+- Add type countPost to IUser
+- Change postRelated to return related: IPost
+
+### Removed
+
 ## v1.0.17
 
 ### Added or Changed
